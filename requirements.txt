@@ -1,0 +1,8 @@
+portkey-ai==2.3.4
+google-genai==2.17.0
+google-auth==2.56.2
+fastmcp==3.4.6
+httpx==0.28.1
+requests==2.34.2
+slack-bolt==1.30.0
+slack-sdk==3.43.0

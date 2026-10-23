@@ -1,0 +1,7 @@
+# Allow-list: the image needs only what the Dockerfile installs and copies.
+# The integration YAML pins this image's digest, so it must stay out of the
+# build context or every digest bump would change the next build.
+*
+!requirements.txt
+!bot_gateway.py
+!gateway_runtime.py
